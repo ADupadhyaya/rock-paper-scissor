@@ -69,7 +69,7 @@ int main()
             else if(Cscore < Pscore ){
                 printf("Player wins %d to %d\n",Pscore,Cscore);
             }
-           else if(Cscore = Pscore ){
+           else if(Cscore == Pscore ){
                 printf("No winner it is a draw!\n");
             }
 
